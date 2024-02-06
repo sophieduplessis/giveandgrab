@@ -10,7 +10,9 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap"
+      rel="stylesheet">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,14 +21,16 @@
   <body>
 
     <div class="navigation">
-      
+
       <div class="row">
         <div class="col-6">
           <a href="/index.html" class="stretched-link"><h1>Give & Grab</h1></a>
         </div>
         <div class="col-6" id="search">
           <div class="input-group rounded">
-            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+            <input type="search" class="form-control rounded"
+              placeholder="Search" aria-label="Search"
+              aria-describedby="search-addon" />
             <span class="input-group-text border-0" id="search-addon">
               <i class="fas fa-search"></i>
             </span>
@@ -37,97 +41,106 @@
       <div class="row" id="navButton">
         <div class="row">
           <div class="col-2">
-            <button type="button">Donate Item</button> 
+            <button type="button">Donate Item</button>
           </div>
           <div class="col-2">
-            <button type="button">My Account</button> 
+            <button type="button">My Account</button>
           </div>
           <div class="col-2">
-            <button type="button">About us</button> 
+            <button type="button">About us</button>
           </div>
           <div class="col-2" id="signOut">
-            <button id="signGreen" type="button">Sign out</button> 
+            <button id="signGreen" type="button">Sign out</button>
           </div>
         </div>
       </div>
+    </div>
+
+    <hr>
+    <br><br>
+
+    <section>
+      <a href="/fridges.html" class="stretched-link"><li>Home / Appliances /
+          Fridges / <span style="color:#171768"> Item</span></li></a>
+      <br>
+      <br><br><br><br>
+      <div class="row" id="heroImages">
+        <div class="col-6">
+          <img src="./fridge3.png" width="600" height="400">
+        </div>
+        <div class="col-6">
+          <img src="./fridge4.png" width="600" height="400">
+        </div>
       </div>
-
-      <hr>
-      <br><br>
-
-      <section>
-        <a href="/fridges.html" class="stretched-link"><li>Home / Appliances / Fridges / <span style="color:#171768"> Item</span></li></a>
-        <br>
-        <br><br><br><br>
-        <div class="row" id="heroImages">
-          <div class="col-6">
-            <img src="./fridge3.png" width="600" height="400">
-          </div>
-          <div class="col-6">
-            <img src="./fridge4.png" width="600" height="400"> 
-          </div>
+      <br><br><br><p><br></p>
+      <div class="row" id="info">
+        <div class="col-6">
+          <h2>Location: Frankston/Victoria</h2><br>
+          <p>2 door fridge with freezer. In great condition and freezer
+            works!<br> 5 years old used by small family.<br><br><br><br>
+            <span style="font-weight: bold"> AVAILABLE NOW</span></p>
+          <br><br>
+          <button type="button" id="collect">Arrange collection</button>
         </div>
-        <br><br><br><p><br></p>
-        <div class="row" id="info">
-          <div class="col-6">
-            <h2>Location: Frankston/Victoria</h2><br>
-            <p>2 door fridge with freezer. In great condition and freezer works!<br> 5 years old used by small family.<br><br><br><br>
-              <span style="font-weight: bold"> AVAILABLE NOW</span></p>
-              <br><br>
-              <button type="button" id="collect">Arrange collection</button> 
-          </div>
-          <div class="col-6">
-            <img src="./images/map.png" width="600" height="auto" float="right" border-radius="1px">
-          </div>
+        <div class="col-6">
+          <img src="./images/map.png" width="600" height="auto" float="right"
+            border-radius="1px">
         </div>
-      </section>
+      </div>
+    </section>
 
-      <h2 id="bump">Similar items nearby</h2>
+    <h2 id="bump">Similar items nearby</h2>
 
-      <section id="similarItems">
-        <br><br><br><br><br>
-        <div class="row justify-content-center">
-          <div class="col-4">
-            <div class="card" style="width: 20rem;">
-              <img src="./images/f1_mini.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Fridge</h5>
-                <p class="card-text">4 door fridge working in great condition.<br><br>
-                  <span style="font-weight: bold">Availability:</span> Immediately<br>
-                  <span style="font-weight: bold">Location:</span> St Kilda, VIC</p><br>
-                <a href="#" class="btn" id="collect2">View Item</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="card" style="width: 20rem;">
-              <img src="./images/f2_mini.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Bar Fridge</h5>
-                <p class="card-text">Small bar fridge <br><br><br>
-                  <span style="font-weight: bold">Availability:</span> Immediately<br>
-                  <span style="font-weight: bold">Location:</span> Fitzroy, VIC</p><br>
-                <a href="#" class="btn" id="collect2">View Item</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="card" style="width: 20rem;">
-              <img src="./images/f3_mini.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Chest Freezer</h5>
-                <p class="card-text">2 door fridge working in great condition.<br><br>
-                  <span style="font-weight: bold">Availability:</span> Immediately <br>
-                  <span style="font-weight: bold">Location:</span> Collingwood, VIC</p> <br>
-                <a href="#" class="btn" id="collect2">View Item</a>
-              </div>
+    <section id="similarItems">
+      <br><br><br><br><br>
+      <div class="row justify-content-center">
+        <div class="col-4">
+          <div class="card" style="width: 20rem;">
+            <img src="./images/f1_mini.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Fridge</h5>
+              <p class="card-text">4 door fridge working in great
+                condition.<br><br>
+                <span style="font-weight: bold">Availability:</span>
+                Immediately<br>
+                <span style="font-weight: bold">Location:</span> St Kilda,
+                VIC</p><br>
+              <a href="#" class="btn" id="collect2">View Item</a>
             </div>
           </div>
         </div>
-      </section>
-      <br><br><br><br><br><br><br><br><br>
-
-
+        <div class="col-4">
+          <div class="card" style="width: 20rem;">
+            <img src="./images/f2_mini.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bar Fridge</h5>
+              <p class="card-text">Small bar fridge <br><br><br>
+                <span style="font-weight: bold">Availability:</span>
+                Immediately<br>
+                <span style="font-weight: bold">Location:</span> Fitzroy,
+                VIC</p><br>
+              <a href="#" class="btn" id="collect2">View Item</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="width: 20rem;">
+            <img src="./images/f3_mini.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Chest Freezer</h5>
+              <p class="card-text">2 door fridge working in great
+                condition.<br><br>
+                <span style="font-weight: bold">Availability:</span> Immediately
+                <br>
+                <span style="font-weight: bold">Location:</span> Collingwood,
+                VIC</p> <br>
+              <a href="#" class="btn" id="collect2">View Item</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br><br><br><br><br><br><br><br>
 
     <footer>
       <div class="row">
@@ -135,13 +148,13 @@
           <h1> <span style="font-size: 50px">Give and Grab</span></h1>
         </div>
         <br>
-        <P></P>
+        <p></p>
       </div>
       <div class="row">
         <div class="col-2" id="bump">
           <p>About us<br>
             Careers <br>
-            FAQ’S  <br>
+            FAQ’S <br>
             Contact Us <br>
             Book a pick up <br>
             Donate</p> <br>
@@ -150,12 +163,12 @@
           <p>Privacy Policy <br>
             Terms of Service <br>
             Complaints <br>
-            Our corporate partners</p> <br>   
+            Our corporate partners</p> <br>
         </div>
         <div class="col-2">
           <p>Emergency Support <br>
             Find a charity provider <br>
-            </p>
+          </p>
         </div>
         <div class="col-3">
           <img src="./images/follow.png" id="follow" width="200">
