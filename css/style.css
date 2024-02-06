@@ -1,0 +1,256 @@
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+    color: #171768;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+
+#bump {
+    padding-left:60px;
+}
+
+#search {
+    position:absolute;
+    left:600px;
+    margin-top: 80px;
+}
+
+#navButton {
+    padding-left:60px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+button {
+    background-color: #E6E6FF;
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 18px;
+    padding: 5px 10px;
+    color:#171768;
+    font-weight: 500;
+}
+
+#signOut {
+    position:absolute;
+    left: 1100px;
+}
+
+#signGreen {
+    background-color: #A0F1C6;
+    padding: 5px 30px;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 60px;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 90%;
+    border-color:#171768;
+  }
+
+  li {
+    padding-left: 60px;
+    font-family: 'quicksand', sans-serif;
+    font-weight: 300;
+    color: #898484;
+    font-size: 20px;
+  }
+
+  #heroImages {
+    padding-left: 80px;
+  }
+
+  .h2 {
+    padding-left: 60px;
+    font-family: 'quicksand', sans-serif;
+    padding-top: 160px;
+    font-size: 40px;
+  }
+
+
+
+  #info {
+    padding-left: 60px;
+    
+  }
+
+  #collect {
+    padding: 5px 120px;
+    background-color: #FEBB86;
+    color: black;
+  }
+
+  #similarItems {
+    padding-left: 60px;
+    justify-content: center;
+  }
+
+  #collect2 {
+    padding: 5px 100px;
+    background-color: #FEBB86;
+    color: black;
+    justify-content: center;
+    padding-bottom: ;
+  }
+
+  .card {
+    background-color: #A0F1C6;
+    border-radius: 18px;
+    border-color: #A0F1C6;;
+  }
+
+  h5 {
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-family: 'quicksand', sans-serif;
+    padding-top: none;
+  }
+
+  #follow {
+    position: absolute;
+    right: 100px;
+  }
+
+  footer {
+    background-color: #FEBB86 ;
+  }
+
+  p {
+    font-weight: 300;
+  }
+
+  #jumboFridge {
+    background-image: url("../images/jumbo_fridge.png");
+    height:fit-content;
+    
+    justify-content: center;
+    padding-right: 90px;
+    background-repeat: no-repeat;
+ 
+    background-position: center;
+    color:#E6E6FF;
+    text-align: center;
+  
+  }
+
+  #donate {
+    background-color: #A0F1C6;
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 18px;
+    padding: 10px 150px;
+    color:#171768;
+    font-weight: 500;
+    
+  }
+  
+  #white {
+    color: #E6E6FF;
+    padding-top: 150px;
+  }
+
+  .lead {
+    padding-left: 100px;
+    font-size: 30px;
+    font-weight: ;
+  }
+
+  #location {
+    position:absolute;
+    left: 1100px;
+    padding: 5px 20px;
+    background-color: #171768;
+    color:#E6E6FF
+  }
+
+#fridgeCards {
+  padding: 60px;
+}
+
+#orange {
+  background-color:#E5E2FB;
+  border: 0px;
+}
+
+#purple {
+  background-color:#E5E2FB;
+  padding: 5px 120px;
+  color: black;
+}
+
+#boop {
+  background-color: #A0F1C6;
+  font-size: 15px;
+  padding: 5px 10px;
+  width: 50%;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  color: black;
+}
+
+#seeMore {
+  padding-left: 550px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 30vw;
+  object-fit: cover;
+}
+
+#heroMain {
+    background-image: url("../images/mp_hero.png");
+    height:fit-content;
+    
+    justify-content: center;
+    padding-right: 90px;
+    background-repeat: no-repeat;
+ 
+    background-position: center;
+    color:#E6E6FF;
+    text-align: center;
+}
+
+#green {
+  color:#A0F1C6;
+  padding-top: 200px;
+}
+
+#center {
+  text-align: center;
+}
+
+#stats {
+  padding-left: 120px;
+}
+
+#mainCards {
+  padding: 0px;
+}
+
+#shrink {
+  height: 60%;
+  
+  background-color: #FEBB86;
+  text-align: center;
+  border: 0px;
+  padding-top: 0;
+}
+
+#drop {
+  padding-top:60px;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+}
